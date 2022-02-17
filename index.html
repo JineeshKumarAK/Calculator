@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Keania+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="mainbox">
+        <div class="calculator">
+            <h1>Calculator</h1>
+          
+            <div class="display">
+                <input type="text" id="display" placeholder="0">
+                
+                </div>
+                <div class="boxe1">
+                    <input type="button" value="7" id="btn1" onclick="display('7')">
+        
+                
+                    <input type="button" value="8" id="btn2" onclick="display('8')">
+                
+                
+                    <input type="button" value="9" id="btn3" onclick="display('9')">
+
+
+                    <input type="button" value="%" id="btn4" onclick="display('%')">
+
+
+                    <input type="button" value="+" id="btnplus" onclick="display('+')">
+        
+                
+                </div>
+                <div class="boxe1">
+                    
+                    <input type="button" value="4" id="btn5" onclick="display('4')">
+        
+                
+                    <input type="button" value="5" id="btn6" onclick="display('5')">
+                
+                
+                    <input type="button" value="6" id="btn7" onclick="display('6')">
+
+
+                    <input type="button" value="/" id="btn8" onclick="display('/')">
+
+
+                    <input type="button" value="-" id="btnmin" onclick="display('-')">
+
+                </div>
+                <div class="boxe1">
+                    <input type="button" value="1" id="btn9" onclick="display('1')">
+        
+                
+                    <input type="button" value="2" id="btn10" onclick="display('2')">
+                
+                
+                    <input type="button" value="3" id="btn11"  onclick="display('3')">
+
+
+
+                    <input type="button" value="del" id="btndel" onclick="del()">
+
+
+                    <input type="button" value="*" id="btnmul" onclick="display('*')">
+
+                </div>
+                <div class="boxe1">
+        
+                
+                    <input type="button" value="0" id="btn12" onclick="display('0')">
+                
+                
+                    <input type="button" value="." id="btn13" onclick="display('.')">
+
+
+                    <input type="button" value="C" id="btnclear" onclick="clear1('c')">
+
+
+                    <input type="button" value="=" id="btneq" onclick="calculate()">
+
+
+
+
+
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

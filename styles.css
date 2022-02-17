@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgba(228, 180, 180, 0.408);
+    width:100%;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.mainbox{
+    padding: 40px 80px;
+    width: 450px;  
+
+}
+
+.calculator{
+    color: rgb(72, 255, 0);
+    background-color: rgb(0, 0, 0);
+    height: 490px;
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: goldenrod;
+  
+
+}
+.calculator h1{
+    text-align: center;
+}
+.display{
+    background-color: rgb(17, 17, 17);
+    border-color: rgb(255, 0, 0);
+    padding: 50px; 
+}
+.display,#display{
+    width:350px;
+    height: 80px;
+    font-size:50px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Keania One', cursive;
+    border: 0;
+    box-shadow: inset -5px -3px .5px rgb(0, 0, 0),
+                inset -5px -3px 80px rgb(36, 34, 34);
+}
+.boxe1{
+    background-color: rgb(0, 0, 0);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+#btn1{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+    
+}
+#btn2{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;  
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btn3{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btnplus{
+    width:100px;
+    height: 60px;
+    padding: 10px 60px;
+    color: rgb(111, 255, 0);
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+    
+}
+#btn4{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+
+}
+#btn5{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btn6{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;  
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btnmin{
+    width:100px;
+    height: 60px;
+    padding: 10px 60px;
+    color: rgb(111, 255, 0);
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btn7{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;  
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btn8{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;   
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btn9{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;   
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btnmul{
+    width:100px;
+    height: 60px;
+    padding: 10px 60px;
+    color: rgb(111, 255, 0);
+    background-color: black;   
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btn10{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;  
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btn11{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black; 
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btn12{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black; 
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btneq{
+    width:100px;
+    height: 60px;
+    padding: 10px 67px;
+    color: rgb(111, 255, 0);
+    background-color: black; 
+    border-radius: 10px;
+    font-weight:1000;
+    font-size: 30px;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btn13{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;  
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btnclear{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black; 
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+}
+#btndel{
+    width:100px;
+    height: 60px;
+    padding: 10px 20px;
+    color: rgb(111, 255, 0);
+    background-color: black;  
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:sans-serif;
+    box-shadow: inset -5px -3px 1px rgb(0, 0, 0),
+    inset -5px -3px 30px rgb(41, 38, 38);
+
+}
+#btn1:hover{
+    color: white;
+}
+#btn2:hover{
+    color: white;
+}
+
+#btn3:hover{
+    color: white;
+}
+#btnplus:hover{
+    color: white;
+}
+#btn4:hover{
+    color: white;
+}
+#btn5:hover{
+    color: white;
+}
+#btn6:hover{
+    color: white;
+}
+#btnmin:hover{
+    color: white;
+}
+#btn7:hover{
+    color: white;
+}
+#btn8:hover{
+    color: white;
+}
+#btn9:hover{
+    color: white;
+}
+#btnmul:hover{
+    color: white;
+}
+#btn10:hover{
+    color: white;
+}
+#btn11:hover{
+    color: white;
+}
+#btn12:hover{
+    color: white;
+}
+#btn13:hover{
+    color: white;
+}
+#btnclear:hover{
+    color: white;
+}
+#btneq:hover{
+    color: white;
+}
+
